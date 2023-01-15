@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: vprodb
-        image: techhouse/vprofiledb:v1
+        image: techhouse/vprofiledb:V1
         ports:
         - name: vprodb-port
           containerPort: 3306
